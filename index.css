@@ -3,9 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+body,html{
     margin: 0;
     padding: 0;
+    overflow-x:hidden;
     color:white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1.5px;
