@@ -18,17 +18,18 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="bg-dark text-light">
-    <header class="container-fluid position-fixed flex-wrap d-flex flex-wrap justify-content-center align-content-center">
-        <div class="container-fluid d-flex p-md-3 flex-wrap justify-content-between align-items-center" id="nav">
-            <div class="col-2 fs-4" id="logo">PORTFOLIO</div>
-            <ul class="col-9 d-flex flex-wrap justify-content-evenly align-items-center">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT ME</a></li>
-                <!-- <li><a href="#service">SERVICES</a></li> -->
-                <li><a href="#education">EDUCATION</a></li>
-                <li><a href="#project">PROJECTS</a></li>
-                <li><a href="#contact">CONTACT ME</a></li>
+<body class="">
+    <header
+        class=" container-fluid position-fixed flex-wrap d-flex flex-wrap justify-content-center align-content-center">
+        <div class="container-fluid p-sm-3 d-flex flex-wrap justify-content-between align-items-center" id="nav">
+            <div class="col-1 fs-5" id="logo">PORTFOLIO</div>
+            <ul class="col-9 fs-6 d-flex flex-wrap justify-content-between align-items-center">
+                <li><a class="me-2" href="#home">HOME</a></li>
+                <li><a class="me-2" href="#about">ABOUT ME</a></li>
+                <li><a class="me-2" href="#education">EDUCATION</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a class="me-2" href="#project">PROJECTS</a></li>
+                <li><a class="me-2" href="#contact">CONTACT ME</a></li>
             </ul>
         </div>
     </header>
@@ -46,13 +47,14 @@
                 growth. Passionate about staying ahead of industry trends and contributing to your
                 organization’s success.</p>
         </div>
-        <div class="col-md-4 rounded">
-            <img class="img-fluid" height="25px" src="./images/IMG_20240514_111044-Photoroom.png-Photoroom.png" alt="">
+        <div class="col-md-4">
+            <img class="img-fluid rounded-border" height="25px"
+                src="./images/IMG_20240514_111044-Photoroom.png-Photoroom.png" alt="">
         </div>
     </div>
-    <div class="container-fluid p-5 mt-3" id="about">
+    <div class="container-fluid p-5" id="about">
         <div class="section fs-6">
-            <span class="fs-5">About</span>
+            <span class="fs-2">About</span>
             <br><br><br><br>
             <h1>HELLO YOU</h1>
             <br>
@@ -74,62 +76,70 @@
             </p>
         </div>
     </div>
-    <!-- <div class="container-fluid mt-3" id="service"></div> -->
-    <div class="container-fluid p-5 mt-3 d-flex flex-wrap justify-content-between" id="education">
-        <div class="col-7">
-            <span class=" fs-2">Education</span>
+    <div class="container-fluid p-5 d-flex flex-wrap justify-content-between" id="education">
+        <div class="col-md-8">
+            <span class=" fs-2 text-dark">Education</span>
             <br><br><br>
             <div class="container d-flex">
-                <div class="line w-2 vh-80 bg-warning">.</div>
+                <div class="line w-2 vh-80 bg-dark">.</div>
+
                 <div class="container">
                     <span>2019-2023</span>
-                    <div class="section p-2 border border-warning">
+                    <div class="section text-center mt-2 p-2 border ">
                         <h3>Oriental college of technology, Bhopal</h3>
                         <p>B.Tech , Computer Science</p>
                     </div>
                     <br>
                     <span>2017-2018</span>
-                    <div class="section p-2 border border-warning">
+                    <div class="section text-center mt-2 p-2 border">
                         <h3>Govt. boys h. s. school, Katangi</h3>
                         <p>Higher secondary, PCMB</p>
                     </div>
                     <br>
                     <span>2015-2016</span>
-                    <div class="section p-2 border border-warning">
+                    <div class="section text-center mt-2 p-2 border">
                         <h3>Vivek jyoti high school , Katangi</h3>
                         <p>High school</p>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Skills section -->
+    <div class="container-fluid p-5" id="skills">
         <div class="col-4 mt-3" id="skills">
-            <span class="fs-2">Skills</span>
-            <br><br><br>
-            <ul class="fs-4">
-                <li class="">Front-End
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>React.js</li>
-                    </ul>
-                </li>
-                <li>Back-End
-                    <ul>
-                        <li>Java</li>
-                        <li>Sprint Boot</li>
-                    </ul>
-                </li>
-                <li>Database
-                    <ul>
-                        <li>SQL</li>
-                        <li>MySql</li>
-                    </ul>
-                </li>
-            </ul>
+            <span class="fs-2 text-warning">Skills</span>
+        </div>
+        <div class="row mt-5 d-flex flex-wrap justify-content-around">
+            <div class="col-3 col-md-2 mt-3">
+                <img class="w-100" src="./images/html png.png" alt="">
+                <div class="fs-4 text-center text-warning">HTML</div>
+            </div>
+            <div class="col-3 col-md-2 mt-3">
+                <img class="w-100" src="./images/css png.png" alt="">
+                <div class="fs-4 text-center text-warning">CSS</div>
+            </div>
+            <div class="col-3 col-md-2 mt-3">
+                <img class="w-100" src="./images/javascrpt png.png" alt="">
+                <div class="fs-4 text-center text-warning">JavaScript</div>
+            </div>
+        </div>
+        <div class="row mt-5 d-flex flex-wrap justify-content-around">
+            <div class="col-3 col-md-2 mt-3">
+                <img class="w-100" src="./images/react png.png" alt="">
+                <div class="fs-4 text-center text-warning">React.js</div>
+            </div>
+            <div class="col-3 col-md-2 mt-3">
+                <img class="w-100" src="./images/java (2).png" alt="">
+                <div class="fs-4 text-center text-warning">Java</div>
+            </div>
+            <div class="col-3 col-md-2 mt-3">
+                <img class="w-100" src="./images/sql png.png" alt="">
+                <div class="fs-4 text-center text-warning">SQL</div>
+            </div>
         </div>
     </div>
-    <div class="container-fluid p-5 mt-3" id="project">
+    <div class="container-fluid p-5" id="project">
         <div class="mainSection">
             <span class="fs-2">Projects</span>
             <div class="prjName mt-5">
@@ -140,24 +150,28 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid p-5 mt-3" id="contact">
+    <div class="container-fluid p-5" id="contact">
         <div class="row mb-2">
             <div class="h4 text-warning">Contact Me</div>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                <a class="fs-6 text-light text-decoration-none"
-                    href="mailto:shubhamthakre180@gmail.com"><i
-                        class="fa-regular fa-envelope me-3 fs-5"></i>
-                    shubhamthakre180@gmail.com</a>
-            </div>
-            <div class="col-6">
-                <a class="fs-6 text-light text-decoration-none" href="tel:+917748823963"><i
-                        class="fa fa-phone me-4 fs-5"></i>7748823963</a>
-            </div>
+        <div class="container mt-5">
+            <form class="d-flex flex-wrap justify-content-between" action="">
+                <input class="col-5" type="text" name="name" id="name" placeholder="NAME">
+                <input class="col-5" type="email" name="email" id="email" placeholder="EMAIL">
+                <textarea class="w-100 mt-5" name="message" id="message" placeholder="MESSAGE"></textarea>
+                <button class="btn border-2 border-primary mt-3" type="submit">Submit</button>
+            </form>
         </div>
     </div>
-    <footer></footer>
+    </div>
+    <footer class="container-fluid bg-dark text-light">
+        <div class="container mt-5 d-md-flex justify-content-evenly">
+            <a class="text-light text-decoration-none" href="mailto:shubhamthakre180@gmail.com">
+                shubhamthakre180@gmail.com</a>
+                <br>
+            <a class="fs-6 text-light text-decoration-none" href="tel:+917748823963">+91 7748823963</a>
+        </div>
+    </footer>
 
     <script>
         function getLoginPage(params) {
