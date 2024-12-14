@@ -244,7 +244,11 @@ footer a{
     text-decoration: none;
     color: rgb(209, 207, 207);
     margin-right: 16px;
-    font-size: larger;
+    font-size: 12px;
+}
+
+footer a i{
+    font-size: 22px;
 }
 
 .links{
@@ -257,7 +261,7 @@ footer a{
     text-decoration: none;
     color: rgb(209, 207, 207);
     margin-right: 16px;
-    font-size: larger;
+    font-size: 10px;
 }
 
 .links ul li{
