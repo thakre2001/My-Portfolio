@@ -247,14 +247,22 @@ footer a{
     font-size: larger;
 }
 
-footer .links{
+.links{
     background-color: rgb(40, 40, 40);
     font-size: 10px;
+    left: 0;
+    color: rgb(209, 207, 207);
+}
+.links a{
+    text-decoration: none;
+    color: rgb(209, 207, 207);
+    margin-right: 16px;
+    font-size: larger;
 }
 
-footer .links ul li{
+.links ul li{
     list-style: none;
-    
+    font-size: 8px;
 }
 
 /* @media (min-width:320px){
