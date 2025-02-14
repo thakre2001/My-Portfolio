@@ -1,188 +1,26 @@
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #111;
-    color: #fff;
+body, html {
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
-/* Navbar */
-.navbar {
-    background-color: #333;
-    padding: 15px;
+.container {
+    max-width: 100%;
 }
 
-.navbar .navbar-brand {
-    font-size: 2rem;
-    font-weight: bold;
-    background-image: linear-gradient(to right, #FF5733, #FFBB33);
+.navbar .navbar-brand{
+    background-image: linear-gradient(to right, #ff8c00, #ff0080);
     -webkit-background-clip: text;
-    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.2em;
 }
 
-.navbar .nav-link {
-    color: #ddd;
-    font-size: 1.1rem;
-    margin-left: 15px;
-}
-
-.navbar .nav-link:hover {
-    color: #FFBB33;
-}
-
-/* Home Section */
-.home-section {
-    background: url('images/home-bg.jpg') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.home-section h1 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    background-image: linear-gradient(to right, #FF5733, #FFBB33);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-.home-section p {
-    font-size: 1.25rem;
-}
-
-.home-section .btn-warning {
-    background-color: #FF5733;
-    border: none;
-    padding: 10px 30px;
-    font-size: 1.2rem;
-}
-
-.home-section .btn-warning:hover {
-    background-color: #FFBB33;
-}
-
-/* About Section */
-#about {
-    background-color: #222;
-    padding: 80px 0;
-}
-
-#about h2 {
-    font-size: 2.5rem;
-    color: #FFBB33;
-}
-
-#about p {
-    font-size: 1.25rem;
-}
-
-/* Education Section */
-.timeline {
-    list-style: none;
-}
-
-.timeline-item {
-    background-color: #333;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
-
-.timeline-item .date {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #FF5733;
-}
-
-/* Skills Section */
-#skills .skill-icon {
-    width: 100px;
-    margin: 20px;
-}
-
-#skills h2 {
-    font-size: 2.5rem;
-    color: #FFBB33;
-}
-
-#skills .row {
-    margin-top: 30px;
-}
-
-/* Projects Section */
-#projects {
-    background-color: #222;
-    padding: 80px 0;
-}
-
-#projects h2 {
-    font-size: 2.5rem;
-    color: #FFBB33;
-}
-
-#projects .col-md-6 {
-    margin-bottom: 20px;
-}
-
-/* Contact Section */
-#contact {
-    background-color: #222;
-    padding: 80px 0;
-}
-
-#contact h2 {
-    font-size: 2.5rem;
-    color: #FFBB33;
-}
-
-#contact form input, 
-#contact form textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    font-size: 1rem;
-    border: 2px solid #444;
-    background-color: #333;
-    color: #fff;
-    border-radius: 5px;
-}
-
-#contact form button {
-    background-color: #FF5733;
-    border: none;
-    padding: 12px 25px;
-    font-size: 1.2rem;
-    border-radius: 5px;
-}
-
-#contact form button:hover {
-    background-color: #FFBB33;
-}
-
-/* Footer */
-footer {
-    background-color: #222;
-    padding: 40px 0;
-}
-
-footer p {
-    font-size: 1rem;
-}
-
-footer .fa {
-    font-size: 1.5rem;
-    color: #fff;
-    margin: 0 10px;
-}
-
-footer .fa:hover {
-    color: #FF5733;
+.navbar .nav-link:hover{
+    color: #ff0080;
+    border-bottom: 2px solid #ff8c00;
 }
