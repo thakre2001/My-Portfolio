@@ -1,6 +1,11 @@
+
+@import url("https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css");
+
+
 html,
 body {
     height: 100%;
+
 }
 
 body {
@@ -49,6 +54,11 @@ main {
 }
 
 /* Hero Section */
+
+header{
+    padding-top: 100px;
+}
+
 header h1 {
     animation: fadeInUp 1s ease-in-out;
 }
