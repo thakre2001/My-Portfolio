@@ -110,6 +110,7 @@ footer i:hover {
     box-shadow: 0 0 40px rgba(255, 102, 0, 0.6);
 }
 
+
 /* Profile image */
 .profile-img {
     width: 85%;
@@ -236,4 +237,12 @@ footer i:hover {
     font-size: 2.5rem;
     margin-bottom: 10px;
     color: #f4b400;
+}
+
+
+@media screen and (max-width:400px){
+    .image-wrapper{
+        width: 250px;
+        height: 250px;
+    }
 }
